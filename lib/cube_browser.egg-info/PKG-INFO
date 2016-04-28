@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: cube-browser
+Version: 0.5
+Summary: Cube Browser.
+Home-page: https://github.com/scitools/cube_browser
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD
+Description: Cube Browser
+        ============
+        
+        Working with Jupyter Notebooks to interactively visualise Iris cubes.
+        
+        To read the docs locally, run with an http server, e.g:
+        
+            cd doc/_build/html
+            python -m SimpleHTTPServer
+            
+        To fetch submodules within a branch, run:
+        
+            git submodule update --init
+        
+Platform: Windows
+Platform: Mac OS X
+Platform: Linux
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 1 - Planning Development Status
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
