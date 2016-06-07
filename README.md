@@ -6,6 +6,9 @@ Cube Browser
 [![Throughput Graph](https://graphs.waffle.io/SciTools/cube_browser/throughput.svg)](https://waffle.io/SciTools/cube_browser/metrics/throughput) 
 
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/marqh/cube_browser)
+
+
 Introduction
 ------------
 
