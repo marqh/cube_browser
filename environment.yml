@@ -1,0 +1,8 @@
+name:
+    marqh_cube_browser
+channels:
+    - conda-forge
+    - scitools
+    - scitools/label/dev
+dependencies:
+    - cube_browser
