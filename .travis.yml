@@ -4,11 +4,23 @@ env:
   - python=2.7
     iris=1.9
 
+  - python=3.5
+    iris=1.13
+
+  - python=3.5
+    iris=2.1
+
   - python=3.4
     iris=1.9
 
   - python=3.5
     iris=1.9
+
+  - python=3.5
+    iris=1.13
+
+  - python=3.5
+    iris=2.1
 
 sudo: false
 
@@ -36,9 +48,9 @@ install:
 
   # Customise the testing environment
   # ---------------------------------
-  - conda config --add channels scitools
+  # - conda config --add channels scitools
   - conda config --add channels conda-forge
-  - conda install iris=${iris} pip
+  - conda install iris=${iris}
   - conda install ipywidgets
   - pip install coveralls
 
