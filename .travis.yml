@@ -77,7 +77,6 @@ install:
   - conda list
   - conda info -a
 
-
 script:
   - coverage run setup.py test
 
