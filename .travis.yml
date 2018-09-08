@@ -52,7 +52,7 @@ install:
   - conda config --add channels conda-forge
   - conda install netcdftime iris=${iris}
   - conda install ipywidgets
-#  - pip install coveralls
+  - pip install coveralls
 
   # Download iris-test-data
   # -----------------------
@@ -81,4 +81,4 @@ install:
 script:
   - coverage run setup.py test
 
-# after_success: coveralls
+ after_success: coveralls
